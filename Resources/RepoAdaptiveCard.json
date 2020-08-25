@@ -1,0 +1,122 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "ColumnSet",
+      "style": "accent",
+      "bleed": true,
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "Medium",
+              "weight": "bolder",
+              "text": "DBNAME"
+            }
+          ],
+          "width": "150px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "Medium",
+              "weight": "bolder",
+              "text": "STATUS",
+              "horizontalAlignment": "center"
+            }
+          ],
+          "width": "60px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "Medium",
+              "weight": "bolder",
+              "text": "RDBMS",
+              "horizontalAlignment": "center"
+            }
+          ],
+          "width": "70px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "type": "TextBlock",
+              "size": "Medium",
+              "weight": "bolder",
+              "text": "VERSION"
+            }
+          ],
+          "width": "100px"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "style": "light",
+      "bleed": true,
+      "columns": [
+        {
+          "type": "Column",
+          "items": [
+            {
+              "$data": "${reposataries}",
+              "type": "TextBlock",
+              "text": "${DBName}",
+              "horizontalAlignment": "left",
+              "wrap": true
+            }
+          ],
+          "width": "150px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "$data": "${reposataries}",
+              "type": "TextBlock",
+              "text": "${Status}",
+              "horizontalAlignment": "center",
+              "wrap": true
+            }
+          ],
+          "width": "65px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "$data": "${reposataries}",
+              "type": "TextBlock",
+              "text": "${RDMSType}",
+              "horizontalAlignment": "center",
+              "wrap": true
+            }
+          ],
+          "width": "70px"
+        },
+        {
+          "type": "Column",
+          "items": [
+            {
+              "$data": "${reposataries}",
+              "type": "TextBlock",
+              "text": "${Version}",
+              "wrap": true
+            }
+          ],
+          "width": "100px"
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2"
+}
