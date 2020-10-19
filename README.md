@@ -18,7 +18,7 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
 - Create Cosmos DB collection
 - Upload data
 
-QnA knowledge base setup and application configuration steps can be found [here](https://aka.ms/qna-instructions).
+Cosmos DB colection creation steps can be found [here](https://docs.microsoft.com/en-us/azure/cosmos-db/how-to-create-container).
 
 ## To try this sample
 
