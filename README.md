@@ -13,9 +13,23 @@ This bot has been created using [Bot Framework](https://dev.botframework.com), i
   dotnet --version
   ```
 
+### Create a Cosmos DB collection and store the information to be retrieved  by the Bot
+
+- Create Cosmos DB collection
+- Upload data
+
+QnA knowledge base setup and application configuration steps can be found [here](https://aka.ms/qna-instructions).
+
 ## To try this sample
 
+- Clone the repository
+
+    ```bash
+    git clone https://github.com/RaviTella/WithBackendBot.git
+    ```
+
 - In a terminal, navigate to `WithBackendBot`
+- Update appsettings.json file with the Cosmos DB conenction information
 
     ```bash
     # change into project folder
