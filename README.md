@@ -67,7 +67,20 @@ Cosmos DB colection creation steps can be found [here](https://docs.microsoft.co
 
 ## Deploy the bot to Azure
 
-To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](https://aka.ms/azuredeployment) for a complete list of deployment instructions.
+Create a Web App Bot Azure resource, see [Web App Bot instructions](https://docs.microsoft.com/en-us/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0).
+
+Deploy the Bot to Azure from Visual Studio
+
+Enable Teams channel in the Web App Bot
+
+
+## Create a Bot for Teams
+
+Create app manifest and package using app studio  [Teams Bot](https://docs.microsoft.com/en-us/microsoftteams/platform/bots/how-to/create-a-bot-for-teams).
+
+When adding the Bot to the App manifest make sure the BOT ID matches the web app bot MicrosoftAppId (You can get this from the app settings of web app bot)
+
+Install the Bot in Teams via "Test and Distribute" menu
 
 ## Further reading
 
